@@ -3,6 +3,5 @@
 # Beginner:     10 lines
 # Intermediate: 3 lines
 # Advanced:     2 lines
-
-i = 1
-print(i)
+for i in range(11):
+    print(i)
