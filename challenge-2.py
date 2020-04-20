@@ -1,3 +1,8 @@
-print("What is your name?")
-n = input()
-print("Name: " + n)
+n = input("What is your name?")
+if n == ("bob"):
+    print("I don't recognize that name.")
+else:
+    if n == ("alice"):
+        print ("I don't recognize that name.")
+    else:
+        print("Name: " + n)

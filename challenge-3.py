@@ -3,5 +3,5 @@ snum = input()
 num = int(snum)
 
 # These statements print different things...
-print(snum * 2)
-print(num * 2)
+print(snum * num)
+print(num * snum)
